@@ -27,6 +27,7 @@ class WelcomeActivity : AppCompatActivity() {
             override fun run() {
                 val intent = Intent(this@WelcomeActivity , LoginActivity::class.java)
                 startActivity(intent)
+                finish()
             }
 
         },5000)
