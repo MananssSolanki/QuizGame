@@ -1,4 +1,4 @@
-package com.example.quizgame
+package com.example.quizgame.activity
 
 
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import com.example.quizgame.R
 import com.example.quizgame.databinding.ActivityWelcomeBinding
-import com.google.android.material.animation.AnimationUtils
 
 class WelcomeActivity : AppCompatActivity() {
 
@@ -19,7 +19,8 @@ class WelcomeActivity : AppCompatActivity() {
         binding = ActivityWelcomeBinding.inflate(layoutInflater)
         val view = binding.root
 
-        val alphaAnimation = android.view.animation.AnimationUtils.loadAnimation(applicationContext,R.anim.splash_anim)
+        val alphaAnimation = android.view.animation.AnimationUtils.loadAnimation(applicationContext,
+            R.anim.splash_anim)
 
         val handler = Handler(Looper.getMainLooper())
 
