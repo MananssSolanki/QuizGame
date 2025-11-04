@@ -27,6 +27,7 @@
 
 
         <TextView
+            android:id="@+id/timeTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -44,6 +45,7 @@
 
 
         <TextView
+            android:id="@+id/correctTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -61,6 +63,7 @@
 
 
         <TextView
+            android:id="@+id/wrongTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -83,6 +86,7 @@
         >
 
         <TextView
+            android:id="@+id/questionTxt"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="10dp"
@@ -101,6 +105,7 @@
 
 
         <TextView
+            android:id="@+id/option1Txt"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="10dp"
@@ -115,6 +120,7 @@
 
 
         <TextView
+            android:id="@+id/option2Txt"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="10dp"
@@ -127,6 +133,7 @@
 
 
         <TextView
+            android:id="@+id/option3Txt"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="10dp"
@@ -139,6 +146,7 @@
 
 
         <TextView
+            android:id="@+id/option4Txt"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="10dp"
@@ -155,6 +163,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/butonLy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/mainLy"
@@ -165,7 +174,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/logoutBtn"
+            android:id="@+id/finishBtn"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
@@ -190,6 +199,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/nextBtn"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
@@ -218,9 +228,11 @@
     </LinearLayout>
 
     <ProgressBar
+        android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        />
 
 
 
