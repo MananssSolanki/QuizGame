@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizGame">
         <activity
+            android:name=".activity.ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.QuizGameActivity"
             android:exported="false" />
         <activity
